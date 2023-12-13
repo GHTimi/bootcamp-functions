@@ -29,7 +29,8 @@ jobs:
         # Add environments to deploy to.
         # Each environment should have a corresponding github environment with secrets.
         environment:
-          - test
+          #- test
+          - prod
 
     environment: ${{ matrix.environment }}
 
